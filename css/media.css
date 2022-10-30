@@ -1,3 +1,10 @@
+@media screen and (max-width:1140px){
+    .films__wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+} 
 @media screen and (max-width:640px){
     .banner__h {
         font-size: 47px;
@@ -15,13 +22,17 @@
     .banner__h {
         font-size: 33px;
     }
-    
     .banner__p{
         font-size: 14px;
     }
-    
     .banner__links{
         flex-direction: column;
         align-items: center;
+    }
+}
+@media screen and (max-width:360px) {
+    .banner__h {
+        font-size: 28px;
+        line-height: 30px;
     }
 }
