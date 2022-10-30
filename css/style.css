@@ -194,6 +194,7 @@ body {
     line-height: 12px;
     color: #FFFFFF;
     transition: 0.3s;
+    display: inline-block;
 }
 
 .btn:hover{
@@ -301,8 +302,39 @@ body {
     color: var(--w);
 }
 
+.trailer{
+    background: linear-gradient(90deg, #DEF7FF 0%, #F4FCFF 45.64%, rgba(255, 255, 255, 0) 100.72%);
+    padding: 42px 0 80px;
+    position: relative;
+}
 
+.video{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
 
+.trailer__desc{
+    max-width: 558px;
+    width: 100%;
+}
 
+.trailer__post{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
 
+.trailer__p{
+    font-family: var(--roboto);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--balch);
+    margin: 51px 0 50px
+}
 
