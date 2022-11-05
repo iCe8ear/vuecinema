@@ -4,10 +4,41 @@
         justify-content: center;
         align-items: center;
     }
+    .series__cards{
+        flex-direction: column;
+    }
 } 
+@media screen and (max-width:1110px){
+    .collections__wrap{
+        flex-direction: column;
+        gap: 10px;
+    }
+} 
+
+@media screen and (max-width:840px){
+    .game__h{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .game__p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+} 
+@media screen and (max-width:768px) {
+    .trailer__post {
+        width: 100%;
+    }
+}
 @media screen and (max-width:640px){
     .banner__h {
         font-size: 47px;
+    }
+} 
+@media screen and (max-width:620px){
+    .footer__wrap {
+        flex-direction: column;
+        gap: 10px;
     }
 } 
 
@@ -15,6 +46,16 @@
     .header__wrap{
         flex-direction: column;
         gap: 15px;
+    }
+}
+@media screen and (max-width:480px) {
+    .game__h{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .game__p{
+        font-size: 10px;
+        margin-bottom: 0;
     }
 }
 
@@ -30,9 +71,25 @@
         align-items: center;
     }
 }
+
+@media screen and (max-width:380px) {
+    .game__h{
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .game__p{
+        font-size: 7px;
+        margin-bottom: 0;
+    }
+}
+
 @media screen and (max-width:360px) {
     .banner__h {
         font-size: 28px;
         line-height: 30px;
     }
 }
+
+
+
+
